@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ['apollo.client'],
+    include: ['apollo.client', 'graphql'],
   },
   server: {
     port: 3000,
